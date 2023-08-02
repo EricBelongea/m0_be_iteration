@@ -24,6 +24,16 @@ for word in words
   end
 end
 
+# UPDATE: I feel like I was thinking too much with the code above. 
+# I think that the code below is a more elegant way of writting
+# the code.
+
+words.each do |word|
+  if word.length == 3
+    puts "The word is #{word}"
+  end
+end
+
 
 
 
